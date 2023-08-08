@@ -1,0 +1,46 @@
+.nav-m {
+    display: none;
+}
+@media (max-width: 1039px) {
+    h1:hover,
+    .nav-ul > li:hover {
+        transform: scale(1);
+    }
+    .user-card:hover {
+        transform: scale(1);
+    }
+}
+@media (max-width: 767px) {
+    .header {
+        padding-top: -10px;
+    }
+    h1 {
+        font-size: 35px;
+    }
+    .nav-m {
+        display: block;
+    }
+    .nav-pc {
+        display: none;
+    }
+    .burger {
+        display: flex;
+    }
+    .nav-ul-m > li:active {
+        opacity: 0.6;
+    }
+    .search-container {
+        flex-direction: column;
+    }
+    .nameLastName {
+        font-size: 18px;
+    }
+    .email {
+        font-size: 16px;
+        color: gray;
+    }
+    .tel {
+        font-size: 16px;
+        color: gray;
+    }
+}
